@@ -1,0 +1,79 @@
+body{
+    background-color: white;
+    margin: 10px 10px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('./FinalDash.png') ;
+    background-size: cover;
+    background-position: center;
+    /* backdrop-filter: blur(2px); */
+}
+
+.form{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 20px;
+    backdrop-filter: blur(10px);
+
+}
+
+h1{
+    margin: 5px;
+}
+
+.AQI{
+    font-family: 'Roboto', sans-serif;
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-bottom: 90px ;
+    padding: 20px;
+    border: solid 10px rgba(255, 255, 255, 0.9);
+    font-size: 72px;
+    color: white;
+    backdrop-filter: blur(20px);
+}
+
+h2{
+    margin: 10px 10px;
+}
+
+.contents{
+    width: 20%;
+    margin: 5px ;
+    padding: auto;
+    border: solid 10px rgba(255, 255, 255, 0.9);
+}
+
+.table1 {
+    width: 98vw;
+    border-collapse: collapse;
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    font-size: 20px;
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    backdrop-filter: blur(30px);
+    color: white;
+    padding: 10px;
+
+}
+
+.table1 td {
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+
+.serialno{
+    width: 50px;
+
+    text-align: center;
+}
